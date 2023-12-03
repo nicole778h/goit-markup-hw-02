@@ -1,0 +1,16 @@
+:root {
+    --text-font-family: 'Roboto',  sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+    
+
+
+}
+
+body {
+    font-family: (--text-font-family);
+
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
