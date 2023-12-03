@@ -1,16 +1,60 @@
 :root {
+    --brand-color-iris: #4D5AE5; /* for the logo only */
+    --brand-color-ocean:#404BBF; /* for the app button only */
+    --brand-color-navy-blue: #2E2F42; 
+    --brand-color-slate: #434455;
     --text-font-family: 'Roboto',  sans-serif;
     --logo-font-family: 'Raleway', sans-serif;
     
 
 
 }
-
+/* global styles */
 body {
     font-family: (--text-font-family);
+    background-color: #FFF;
 
 }
 
+ul {
+    list-style-type: none;
+}
+ 
+a{
+    text-decoration: none;
+}
+
+/* clsses */
+
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--logo-font-family);
+    color: var(--brand-color-iris);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.link {
+    font-family: var(--logo-font-family);
+    color: var(--brand-color-navy-blue);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.nav {
+    color: var(--brand-color-navy-blue);   
+}
+
+.adress-phone {
+    color: var(--brand-color-slate);
+}
+
+.adress-mail {
+    color: var(--brand-color-slate);
 }
