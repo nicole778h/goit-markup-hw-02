@@ -9,13 +9,11 @@
 
 /* global styles */
 body {
-    font-family: (--text-font-family);
+    font-family: var(--text-font-family);
     background-color: #FFF;
     color: var(--brand-color-slate);
 
 }
-
-
  
 a{
     text-decoration: none;
@@ -46,22 +44,47 @@ a{
 
 }
 
-.nav {
+.link {
     color: var(--brand-color-navy-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--brand-color-ocean);
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
-.adress-phone {
+.phone-link{
     color: var(--brand-color-slate);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
 }
 
-.adress-mail {
+.mail-link {
     color: var(--brand-color-slate);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--brand-color-ocean);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+}
+
+.phone-link:hover,
+.phone-link:focus {
+    color: var(--brand-color-ocean);
+    text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .list{
