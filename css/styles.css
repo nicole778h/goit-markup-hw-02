@@ -45,7 +45,6 @@ a{
 }
 
 .link {
-    color: var(--brand-color-navy-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,29 +58,21 @@ a{
     letter-spacing: 0.02em;
 }
 
-.phone-link{
+.nav-link {
+    color: var(--brand-color-iris);
+}
+
+
+.contacts {
     color: var(--brand-color-slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
 }
 
-.mail-link {
-    color: var(--brand-color-slate);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-size: 16px;
-}
 
-.mail-link:hover,
-.mail-link:focus {
-    color: var(--brand-color-ocean);
-    text-decoration: none;
-    letter-spacing: 0.02em;
-}
-
-.phone-link:hover,
-.phone-link:focus {
+.contacts:hover,
+.contacts:focus {
     color: var(--brand-color-ocean);
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -89,4 +80,8 @@ a{
 
 .list{
     list-style: none;
+}
+
+.adress {
+    font-style: normal;
 }
