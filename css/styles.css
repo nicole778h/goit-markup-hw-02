@@ -121,5 +121,20 @@ a{
 
 .order-service-button:hover,
 .order-service-button:focus {
-    background-color: var(--brand-color-ocean)
+    background-color: var(--brand-color-ocean);
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color-navy-blue);
+
+}
+
+.list-paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
 }
