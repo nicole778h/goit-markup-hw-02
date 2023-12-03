@@ -143,5 +143,24 @@ a{
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: var();
+    color: #2e2f42;
+
+}
+
+.forth-section {
+    background-color: #F4F4FD;
+
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--brand-color-navy-blue);
+}
+
+.list-item {
+    background-color: #FFFFFFFF;
 }
