@@ -137,6 +137,7 @@ a{
 .list-paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .second-title {
@@ -174,7 +175,7 @@ a{
     letter-spacing: 0.04em;
     color: var(--brand-color-iris);
     background-color: #F4F4FD;
-    cursor: pointer
+    cursor: pointer;
 
 }
 
